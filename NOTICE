@@ -1,0 +1,30 @@
+TvHome — NOTICE
+Copyright 2026 les auteurs de TvHome
+Licence Apache 2.0 (voir le fichier LICENSE).
+
+Code, idées ou ressources adaptés de tvOS Launcher (techgenius1)
+https://github.com/techgenius1/tvos-launcher — Licence Apache 2.0
+(copie de lecture dans C:\TvHome\ref\tvos-launcher, exclue de tout dépôt Git)
+
+Éléments adaptés (idées et mesures, code réécrit en Kotlin / Compose, rien n'est copié tel quel) :
+- app/.../Config.kt : mesures tvOS 26 de l'accueil (cartes 248:148, 6 colonnes, espace, marge, zoom 1,2)
+- app/.../Menus.kt : disposition des réglages (liste de pastilles à droite, icône et aide à gauche), menu d'appli
+- app/.../Apps.kt : renommer une appli, dossier « Autres applis », réinitialiser la disposition
+- app/.../ControlCenter.kt : contenu du centre de contrôle (Wi-Fi, Bluetooth, son, mémoire, veille, Ne pas déranger)
+- app/.../ButtonService.kt : raccourci télécommande par service d'accessibilité (appui long sur Retour)
+- app/.../ContinueWatching.kt : « Reprendre la lecture » à partir des sessions média
+- app/.../Scene.kt, PhotoDream.kt : scène (paysage et horloge géante) et économiseur StandBy
+- app/.../Apps.kt : applis récentes, couleur signature
+- app/.../NavSound.kt : sons de navigation système (FX_FOCUS_NAVIGATION, volume 0,6), comme Clicks.java
+
+Chaque fichier adapté porte le commentaire
+« Adapté de tvOS Launcher (techgenius1), Apache 2.0 » et est listé ici.
+
+Rappel : tvOS Launcher embarque la police Inter (SIL OFL 1.1) et la bibliothèque
+QR Code de Nayuki (MIT). Aucune image, police ni icône n'est reprise sans
+vérification de licence.
+
+Photos d'accueil (Unsplash, licence Unsplash : usage libre, attribution non requise)
+- nuit.jpg : https://unsplash.com/photos/fPaCAQKkRqY (photo-1515868769-ad822a0c67e9), vue de Manhattan la nuit
+- jour.jpg : https://unsplash.com/photos/ (photo-1638024510305-c36fcc0bf3b1), dunes de désert
+Recadrées en 16:9 et réduites en 1280x720. Les anciens fonds sont rangés dans photos-tv\_anciens (non utilisés).

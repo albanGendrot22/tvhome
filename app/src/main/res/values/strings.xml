@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="button_service_description">Appui long sur Retour : ouvre le centre de contrôle de TvHome, dans n\'importe quelle appli. Aucun contenu d\'écran n\'est lu.</string>
+</resources>

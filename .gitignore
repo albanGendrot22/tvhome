@@ -1,0 +1,32 @@
+# --- Compilation et outils
+.gradle/
+.kotlin/
+build/
+app/build/
+.idea/
+*.iml
+*.apk
+
+# --- Réglages et secrets personnels : ne jamais publier
+local.properties
+.claude/
+CLAUDE.md
+
+# --- Dossiers de travail locaux
+backup/
+ref/
+ref-build/
+photos/
+photos-tv/
+
+# --- Notes de travail internes (journal des revues de nuit)
+bench/REVIEWS-CLAUDE.md
+
+# --- Résultats de mesure (lourds, propres à ma TV) : on ne garde que les scripts et les rapports
+bench/*.txt
+bench/apk/
+bench/traces/
+bench/captures/
+bench/outils/*.log
+bench/outils/tp/
+bench/outils/*.sql
